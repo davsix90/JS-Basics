@@ -18,7 +18,10 @@ var name = 'Tyler';
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
 
-  //Code Here
+function getName() {
+  var userName = prompt("Enter name here");
+  return userName;
+}  //Code Here
 
 
 //////////////////PROBLEM 3////////////////////
@@ -28,7 +31,9 @@ var name = 'Tyler';
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 
-  //Code Here
+function welcome(getName) {
+  alert("Welcome " + userName);
+}  //Code Here
 
 
 //////////////////PROBLEM 4////////////////////
@@ -38,7 +43,8 @@ var name = 'Tyler';
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here
+  //Parameters are what are plugged into a function to run the function. Arguments
+  //are used to determine whether or not to run a certain bit of code.
 
 
 //////////////////PROBLEM 5////////////////////
@@ -58,7 +64,9 @@ var name = 'Tyler';
 
 //Create a function called myName that returns your name
 
-  //Code Here
+function myName(name) {
+  return name;
+}  //Code Here
   
 
 
